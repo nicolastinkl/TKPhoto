@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'TKPhoto'
-  s.version      = '1.0.0'
+  s.version      = '1.0.2'
   s.license      =  :type => 'MIT'
   s.homepage     = 'https://github.com/nicolastinkl/TKPhoto'
   s.authors      =  'nicolastinkl' => 'nicolastinkl@gmail.com'
