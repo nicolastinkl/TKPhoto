@@ -14,11 +14,11 @@
 		<string>https://github.com/nicolastinkl/TKPhoto.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TKPhoto/TKPhoto.xcodeproj</string>
+	<string>TKPhoto.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>734DAA9F843AE0FB8BEAA81E1F6D7A03BDF7F03C</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/nicolastinkl/TKPhoto.git</string>
