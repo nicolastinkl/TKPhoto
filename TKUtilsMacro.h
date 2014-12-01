@@ -106,18 +106,14 @@ CGRectMakeWithSize(CGSize size)
 #define SYSTEMFONT(FONTSIZE)     [UIFont systemFontOfSize:FONTSIZE]
 #define FONT(NAME,FONTSIZE)      [UIFont fontWithName:(NAME) size:(FONTSIZE)]
 
-/*!
- *  Storyboard Name
- */
-#define StoryboardWithName_LoginWithRegsiter    @"storyboardWithName_LoginWithRegsiter"
-#define StoryboardWithName_BoxHire              @"storyboardWithNameBoxHire"
-#define StoryboardWithName_SendExpress          @"storyboardWithNameSendExpress"
-
 /*
  Notification Name
  */
-#define NotificationWithName_LoginWithRegsiter      @"NotificationWithName_LoginWithRegsiter"
-#define NotificationWithName_LeftSideFill           @"NotificationWithName_LeftSideFill"
+#define kCapturedPhotoSuccessfully              @"takePhotoSuccess"
+#define kImage                                  @"image"
+#define kFilterImage                            @"image"
+#define kAudioAmrName                           @"amrName"
+#define kAudioDuration                          @"audioDuration"
 
 /*!
  *  SLog
@@ -153,6 +149,7 @@ SLLog(@"%s h=%f, s=%f, v=%f", #_COLOR, _COLOR.hue, _COLOR.saturation, _COLOR.val
 
 #endif
 
+
 #if __IPHONE_6_0 // iOS6 and later
 
 #   define kTextAlignmentCenter_SC    NSTextAlignmentCenter
@@ -183,14 +180,7 @@ SLLog(@"%s h=%f, s=%f, v=%f", #_COLOR, _COLOR.hue, _COLOR.saturation, _COLOR.val
 
 
 
-//notification
-#define kCapturedPhotoSuccessfully              @"takePhotoSuccess"
-#define kImage                                  @"image"
-#define kFilterImage                            @"image"
-#define kAudioAmrName                           @"amrName"
-#define kAudioDuration                          @"audioDuration"
 
-#endif
 
 
 
