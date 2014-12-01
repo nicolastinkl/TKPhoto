@@ -41,6 +41,9 @@
 #define RectSetOrigin(f, x, y)              CGRectMake(x, y, RectWidth(f), RectHeight(f))
 #define RectSetOriginWH(x, w, h)            CGRectMake(x, 5, w, h)
 #define RectSetOriginXYWH(x,y, w, h)            CGRectMake(x, y, w, h)
+#define kThumbnailLength                    78.0f
+#define kThumbnailSize                      CGSizeMake(kThumbnailLength, kThumbnailLength)
+#define kPopoverContentSize                 CGSizeMake(320, 480)
 
 #define rgba_SC(r, g, b, a)                 [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 
